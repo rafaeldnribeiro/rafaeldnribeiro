@@ -27,7 +27,7 @@ Atualmente estou aprofundando minha evolucao profissional em Infraestrutura, Clo
 
 ---
 
-### Projeto em destaque
+### Projetos em destaque
 
 #### [Linux Infrastructure & Automation Lab](https://github.com/rafaeldnribeiro/linux-infra-automation-lab)
 
@@ -44,13 +44,28 @@ O projeto inclui:
 
 [Acessar repositorio do Linux Infrastructure & Automation Lab](https://github.com/rafaeldnribeiro/linux-infra-automation-lab)
 
+#### [Azure Infrastructure Fundamentals Lab](https://github.com/rafaeldnribeiro/azure-infrastructure-fundamentals-lab)
+
+Laboratorio pratico voltado a computacao em nuvem com Microsoft Azure, cobrindo Virtual Networks (VNet), Network Security Groups (NSGs), Infrastructure as Code com Bicep, automacao com Azure CLI e alinhamento com AZ-900.
+
+O projeto inclui:
+- Topologia de rede multi-tier com subnets isoladas (Management e Workload)
+- Filtragem stateful com Network Security Groups (NSG) e zero ingress publico
+- Modulos Bicep (`main.bicep`, `network.bicep`, `main.bicepparam`)
+- Scripts de automacao (`deploy.sh`, `validate.sh`, `destroy.sh`)
+- Runbooks de suporte N2 para incidentes em nuvem (`docs/troubleshooting.md`)
+- Mapeamento direto com objetivos da certificacao AZ-900 (`docs/az900-mapping.md`)
+- Baseline de custo zero ($0.00 base)
+
+[Acessar repositorio do Azure Infrastructure Fundamentals Lab](https://github.com/rafaeldnribeiro/azure-infrastructure-fundamentals-lab)
+
 ---
 
 ### Laboratorio tecnico
 
 Meu ambiente de estudos e pratica utiliza tecnologias reais de infraestrutura, incluindo:
 
-`Linux` · `Ubuntu` · `systemd` · `Bash` · `Python` · `SSH` · `TCP/IP` · `DNS` · `DHCP` · `VPN` · `Git`
+`Linux` · `Ubuntu` · `Microsoft Azure` · `systemd` · `Bash` · `Python` · `Bicep` · `SSH` · `TCP/IP` · `DNS` · `DHCP` · `VPN` · `Git`
 
 Os projetos publicados aqui buscam demonstrar nao apenas conhecimento teorico, mas processos de:
 
@@ -62,9 +77,9 @@ Os projetos publicados aqui buscam demonstrar nao apenas conhecimento teorico, m
 
 Estou avancando progressivamente de infraestrutura tradicional para ambientes de Cloud e DevOps, com foco em:
 - Fundamentos de Cloud
-- Microsoft Azure
+- Microsoft Azure — laboratorios praticos de infraestrutura em andamento
 - Containers
-- Infraestrutura como Codigo
+- Infraestrutura como Codigo (Bicep)
 - Observabilidade e monitoramento
 - Automacao de infraestrutura
 
