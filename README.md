@@ -46,16 +46,17 @@ O projeto inclui:
 
 #### [Azure Infrastructure Fundamentals Lab](https://github.com/rafaeldnribeiro/azure-infrastructure-fundamentals-lab)
 
-Azure infrastructure-as-code laboratory using Bicep and Azure CLI, with locally validated templates for networking and governance. Live cloud deployment pending an active Azure subscription.
+Azure infrastructure-as-code laboratory covering Azure networking, governance, compute/storage IaC and Azure PowerShell labs with locally validated templates. Live cloud deployment pending an active Azure subscription.
 
 O projeto inclui:
 - Topologia de rede multi-tier com subnets isoladas (Management e Workload)
 - Filtragem stateful com Network Security Groups (NSG) e zero ingress publico
-- Modulos Bicep (`main.bicep`, `network.bicep`, `main.bicepparam`) validados estaticamente
+- Modulos Bicep para redes, computacao (`linux-vm`, `vm-scale-set`, `container-instance`) e armazenamento (`storage.bicep`)
 - Modelos de governanca, politicas de compliance (`allowed-locations`, `require-tags`) e RBAC
-- Scripts de automacao (`deploy.sh`, `validate.sh`, `destroy.sh`)
-- Runbooks de suporte N2 para incidentes de infraestrutura e governanca (`docs/troubleshooting.md`, `docs/governance-troubleshooting.md`)
-- Matriz de prontidao para a certificacao AZ-900 (`docs/az900-readiness.md`)
+- Administracao local com PowerShell 7+ e modulo Az (`powershell/Test-AzureLabEnvironment.ps1`, `Get-AzureArchitecture.ps1`)
+- Scripts de automacao e validacao (`deploy.sh`, `validate.sh`, `validate-task011.sh`)
+- Runbooks de suporte N2 para incidentes de infraestrutura, governanca, computacao e storage
+- Matriz de prontidao para a certificacao AZ-900 cobrindo 100% do syllabus oficial de 2026
 - Arquitetura projetada para evitar custos de computacao e gateways (designed to avoid chargeable compute and gateway resources)
 
 [Acessar repositorio do Azure Infrastructure Fundamentals Lab](https://github.com/rafaeldnribeiro/azure-infrastructure-fundamentals-lab)
